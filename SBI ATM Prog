@@ -1,0 +1,22 @@
+import math
+import matplotlib.pyplot as plt 
+import random
+
+
+print(" Welcome to SBI bank")
+restart = ('y')
+chances = 3
+balance = 150
+while chances >=0:
+	pin = int(input('PLease Enter your 4 digit pin:'))
+	if pin == (1234):
+		print('You entered your pin correctly\n')
+		while restart not in ('n','NO','no','N'):
+			print('Please Press 1 for ur Balnce\n')
+			print('Please Press 2 for withdrawl \n')
+			print('Please Press 3 to Pay in \n')
+			print('Please press 4 to Return Card \n')
+			option = int(input('What would yu like to choose ?'))
+			if option == 1:
+				print('Your Balance is ',Balance,'\n')
+				restart = input('Would you like to go')
