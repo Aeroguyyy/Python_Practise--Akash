@@ -1,0 +1,11 @@
+r1 = 4
+r2 = 10
+r3 = 15
+r4 = 30
+
+def calArea(r):
+	area = math.pi * (r)**2
+	print(area)
+
+calArea(r1)
+calArea(r2)
