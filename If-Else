@@ -1,0 +1,21 @@
+import array as arr 
+import numpy as np 
+import matplotlib.pyplot as plt 
+
+x = int(input("Enter the Number"))
+y = int(input("Enter the number"))
+
+
+if x>0 and x<10:
+	if x < 5:
+		print("less than 5")
+	else:
+		print("greater than 5")
+elif x >= 10:
+		print("greater than or equal to 10")
+		if x>= 15:
+			print("Number is greater than 15")
+		else:
+			print(" the number is less than 15")
+else:
+			print("Enter the number again")
