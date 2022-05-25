@@ -1,0 +1,23 @@
+import math
+import matplotlib.pyplot as plt 
+import numpy as np 
+import array as arr 
+import pandas as pd 
+#Fibonaci series 
+
+
+#Enter a number of terms needed 
+a = int(input("ENter the terms "))
+f = 0
+s = 1
+
+
+if a <= 0 :
+	print("The requested series is\n",f)
+else:
+	print(f,s,end = " ")
+	for x in range (2,a):
+		next = f + s 
+		print(next,end = " ")
+		f = s
+		s = next
